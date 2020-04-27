@@ -19,6 +19,6 @@ from django.urls import path, include
 from Insta.views import HelloWorld
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('', HelloWorld.as_view(), name='HelloWorld')
 ]
